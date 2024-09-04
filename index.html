@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="flex-container">
+            <h1 class="nav-title">Perfil</h1>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mi Perfil</a></li>
+                <li><a href="#"></a>Encontrar Conexiones:</a></li>
+                <li><button class="btn">Cerrar Sesión</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="flex-container main">
+        <div class="col-2">
+            <div class="card user-card">
+                <div class="card-header">
+                    <img src="img/IMG_20230719_162027.jpg" alt="foto portada" class="avatar-m">
+                </div>
+                <div class="card-body">
+                    <h1 class="cardName">Alvaro Valencia</h1>
+                    <h3 class="location"> Concepción, Chile</h3>
+                    <p>Diseñador de Estructuras en Madera | Desarrollador JavaScript | Fotógrafo y Amante de la naturaleza</p>
+                    <p>Apasionado por la creación de contenido digital de fácil acceso y adaptable. Disfruto de fotografiar la naturaleza y explorar la belleza de la naturaleza chilena.</p>
+                    <p><a href="#"><img src="img/gear.png" alt="gear" class="icon-s"> Editar perfil</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Education</h3>
+                </div>
+                <div class="card-body">
+                    <h2>Coding Dojo - Bootcamp de Desarrollo Full Stack</h2>
+                    <p class="dates">Ago 2024 - Abr 2025</p>
+                    <p>Triple cinturón negro en Python, MERN y C#</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-1">
+            <div class="card">
+                <div class="card-header">
+                    <span id="connectionRequestNumber" class="badge">2</span>
+                    <h3>Solicitudes de Conexión</h3>
+                </div>
+                <ul class="card-list">
+                    <li class="card-list-item">
+                        <span><img src="img/Larry Lee.png" alt="Larry Lee" class="avatar-s"> Larry Lee</span>
+                        <span class="buttons">
+                            <button class="accept">✔</button>
+                            <button class="decline">✖</button>
+                            </span>
+                    </li>
+                    <li class="card-list-item">
+                        <span><img src="img/Mery Morgan.png" alt="Mery Morgan" class="avatar-s"> Mery Morgan</span>
+                        <span class="buttons">
+                            <button class="accept">✔</button>
+                            <button class="decline">✖</button>
+                            </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <span id="totalConnections" class="badge">500+</span>
+                    <h3>Tus Conexiones</h3>
+                </div>
+                <ul class="card-list" id="myConnections">
+                    <li class="card-list-item start">
+                        <img src="img/Adrian Desplatz.png" alt="Adrianito" class="avatar-s"> Adrianito
+                    </li>
+                    <li class="card-list-item start">
+                        <img src="img/Amber Smith.png" alt="Amber Smith" class="avatar-s"> Amber Smith
+                    </li>
+                    <li class="card-list-item start">
+                        <img src="img/Lina Kovacevic.png" alt="Lina Lana" class="avatar-s"> Lina lana
+                    </li>
+                    <li class="card-list-item start">
+                        <img src="img/Mateo Hernandez.jpg" alt="Mateo Hernández" class="avatar-s"> Mateo Hernández
+                    </li>
+                    <li class="card-list-item start">
+                        <img src="img/Kim Possible.jpg" alt="Kim Possible" class="avatar-s"> Kim Possible
+                    </li>
+                    <li class="card-list-item start">
+                        <img src="img/Walter Obrien.png" alt="Walter O'Brien" class="avatar-s"> Walter O'Brien
+                    </li>
+                </ul>
+                <div class="card-footer">
+                    <a href="#">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
